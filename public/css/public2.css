@@ -1,0 +1,114 @@
+table { 
+    border-collapse: collapse; 
+    border-spacing: 0; 
+    font-family: Futura, Arial, sans-serif; 
+}
+
+caption {
+    text-align: left;
+    font-size: larger;
+    margin: 1em auto;
+    color: fuchsia;
+}
+
+th, td {
+    padding: .75em; 
+    text-align:center; 
+    vertical-align:middle;
+}
+
+th {
+    background: linear-gradient(#ccc,#777);
+    color: #fff; 
+}
+
+th:first-child {
+    border-radius: 9px 0 0 0; 
+}
+
+th:last-child {
+    border-radius: 0 9px 0 0; 
+}
+
+tr:last-child td:first-child {
+    border-radius: 0 0 0 9px; 
+}
+
+tr:last-child td:last-child {
+    border-radius: 0 0 9px 0; 
+}
+
+tr:nth-child(odd) {
+    background: #ccc; 
+}
+
+
+
+.logout-button {
+  display: block;
+  float:right;
+  width:100px;
+  height: auto;
+  margin-right: 20px;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #494d59;
+  text-align: center;
+  text-shadow: 0 1px rgba(255, 255, 255, 0.5);
+  background: #fcfcfc;
+  border: 1px solid;
+  border-color: #d8d8d8 #d1d1d1 #c3c3c3;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.calories {
+     font-size: 20px;
+     font-style: italic;
+     color: red;
+     border: 3px solid red;
+     width: 272px;
+     padding: 5px;
+     border-radius: 25px;
+     float: left;
+     margin-left: 30px;
+     margin-top: 130px;
+     
+}
+
+.comments {
+    float:left;
+    text-align: justify;
+    font-family: Perpetua, Baskerville, 'Big Caslon', 'Palatino Linotype', Palatino, 'URW Palladio L', 'Nimbus Roman No9 L', serif;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#container {
+    width: 600px;
+    height: 400px; 
+    margin: 0; 
+    float:left;
+}
+
+.tables_space {
+    position: absolute;
+    margin-left: 2px;
+    margin-top: 350px;
+}
+
+.user_table {
+    float: left;
+    margin-left: 30px;
+    margin-top: 30px
+}
+
+.list_user_data { 
+    list-style-image: url("../images/strawberry.png");
+    color:fuchsia; 
+    font-size:18px;
+    line-height:30px; 
+}
+
+

@@ -1,0 +1,498 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  /*background: url(../images/hrana.jpg) no-repeat center center fixed; za pice*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+.hrana_background {
+      background: url(../images/hrana.jpg) repeat center center fixed; 
+}
+
+.food_background {
+      background: url(../images/food.jpg) no-repeat center center fixed; 
+      background-size: 100%;
+}
+
+.fork_background {
+      background: url(../images/nice.jpg) no-repeat bottom center fixed;
+      
+}
+
+.burn_background {
+      background: url(../images/spent.jpg) no-repeat center center fixed; 
+}
+
+.intake_background {
+      background: url(../images/intake2.png) no-repeat bottom center fixed; 
+}
+
+.error {
+      background: url(../images/error.png) no-repeat center center fixed; 
+}
+
+.subtitle {
+    color: #fff;
+    padding: 20px 20px;
+    text-align: center;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font: 14px/20px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #404040;
+  background: #2d4259;
+}
+
+.register-title {
+  width: 270px;
+  line-height: 43px;
+  margin: 50px auto 20px;
+  font-size: 19px;
+  font-weight: 500;
+  color: white;
+  color: rgba(255, 255, 255, 0.95);
+  text-align: center;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+  background: #d7604b;
+  border-radius: 3px;
+  background-image: -webkit-linear-gradient(top, #dc745e, #d45742);
+  background-image: -moz-linear-gradient(top, #dc745e, #d45742);
+  background-image: -o-linear-gradient(top, #dc745e, #d45742);
+  background-image: linear-gradient(to bottom, #dc745e, #d45742);
+  -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), inset 0 0 0 1px rgba(255, 255, 255, 0.05), 0 0 1px 1px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), inset 0 0 0 1px rgba(255, 255, 255, 0.05), 0 0 1px 1px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.register {
+  margin: 0 auto;
+  width: 230px;
+  padding: 20px;
+  background: #f4f4f4;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+input {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.register-input {
+  display: block;
+  width: 100%;
+  height: 38px;
+  margin-top: 2px;
+  font-weight: 500;
+  background: none;
+  border: 0;
+  border-bottom: 1px solid #d8d8d8;
+}
+.register-input:focus {
+  border-color: #1e9ce6;
+  outline: 0;
+}
+
+.register-button {
+  display: block;
+  width: 100%;
+  height: 42px;
+  margin-top: 25px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #494d59;
+  text-align: center;
+  text-shadow: 0 1px rgba(255, 255, 255, 0.5);
+  background: #fcfcfc;
+  border: 1px solid;
+  border-color: #d8d8d8 #d1d1d1 #c3c3c3;
+  border-radius: 2px;
+  cursor: pointer;
+  background-image: -webkit-linear-gradient(top, #fefefe, #eeeeee);
+  background-image: -moz-linear-gradient(top, #fefefe, #eeeeee);
+  background-image: -o-linear-gradient(top, #fefefe, #eeeeee);
+  background-image: linear-gradient(to bottom, #fefefe, #eeeeee);
+  -webkit-box-shadow: inset 0 -1px rgba(0, 0, 0, 0.03), 0 1px rgba(0, 0, 0, 0.04);
+  box-shadow: inset 0 -1px rgba(0, 0, 0, 0.03), 0 1px rgba(0, 0, 0, 0.04);
+}
+.register-button:active {
+  background: #eee;
+  border-color: #c3c3c3 #d1d1d1 #d8d8d8;
+  background-image: -webkit-linear-gradient(top, #eeeeee, #fcfcfc);
+  background-image: -moz-linear-gradient(top, #eeeeee, #fcfcfc);
+  background-image: -o-linear-gradient(top, #eeeeee, #fcfcfc);
+  background-image: linear-gradient(to bottom, #eeeeee, #fcfcfc);
+  -webkit-box-shadow: inset 0 1px rgba(0, 0, 0, 0.03);
+  box-shadow: inset 0 1px rgba(0, 0, 0, 0.03);
+}
+.register-button:focus {
+  outline: 0;
+}
+
+.register-switch {
+
+  height: 32px;
+  margin-bottom: 15px;
+  padding: 4px;
+  background: #6db244;
+  border-radius: 2px;
+  background-image: -webkit-linear-gradient(top, #60a83a, #7dbe52);
+  background-image: -moz-linear-gradient(top, #60a83a, #7dbe52);
+  background-image: -o-linear-gradient(top, #60a83a, #7dbe52);
+  background-image: linear-gradient(to bottom, #60a83a, #7dbe52);
+  -webkit-box-shadow: inset 0 1px rgba(0, 0, 0, 0.05), inset 1px 0 rgba(0, 0, 0, 0.02), inset -1px 0 rgba(0, 0, 0, 0.02);
+  box-shadow: inset 0 1px rgba(0, 0, 0, 0.05), inset 1px 0 rgba(0, 0, 0, 0.02), inset -1px 0 rgba(0, 0, 0, 0.02);
+}
+
+.register-switch-input {
+  display: none;
+}
+
+.register-switch-label {
+  float: left;
+  width: 50%;
+  line-height: 32px;
+  color: white;
+  text-align: center;
+  text-shadow: 0 -1px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+.register-switch-input:checked + .register-switch-label {
+  font-weight: 500;
+  color: #434248;
+  text-shadow: 0 1px rgba(255, 255, 255, 0.5);
+  background: white;
+  border-radius: 2px;
+  background-image: -webkit-linear-gradient(top, #fefefe, #eeeeee);
+  background-image: -moz-linear-gradient(top, #fefefe, #eeeeee);
+  background-image: -o-linear-gradient(top, #fefefe, #eeeeee);
+  background-image: linear-gradient(to bottom, #fefefe, #eeeeee);
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);
+}
+
+:-moz-placeholder {
+  color: #aaa;
+  font-weight: 300;
+}
+
+::-moz-placeholder {
+  color: #aaa;
+  font-weight: 300;
+  opacity: 1;
+}
+
+::-webkit-input-placeholder {
+  color: #aaa;
+  font-weight: 300;
+}
+
+:-ms-input-placeholder {
+  color: #aaa;
+  font-weight: 300;
+}
+
+::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+#A {
+float:left;
+padding: 40px;
+border: 5px;
+margin-left: 240px;
+}
+
+#intakeA {
+float:left;
+padding: 40px;
+border: 5px;
+margin-left: 240px;
+}
+
+#B {
+float:right;
+padding: 40px;
+border: 5px;
+margin: 40px;
+margin-right:240px;
+}
+
+#C {
+    float: left;
+    position: absolute;
+    margin-left: 30px;
+}
+
+#D {
+float:right;
+border: 5px;
+margin-right:240px;
+width: 220px;
+}
+
+.outPopUp {
+    
+     border-radius: 20px;
+     padding: 5px;
+     position:absolute;
+     width:400px;
+     height:30px;
+     z-index:15;
+     top:50%;
+     left:50%;
+     margin:-100px 0 0 -150px;
+     font-size: 30px;
+}
+
+.outPopUp2 {
+    
+     border-radius: 20px;
+     padding: 5px;
+     position:absolute;
+     width:400px;
+     height:30px;
+     z-index:15;
+     top:50%;
+     left:50%;
+     margin:-100px 0 0 -150px;
+     font-size: 30px;
+}
+
+
+#header {
+	text-align:center;
+	padding: 20px;
+	color: #fff;
+	text-decoration: none;
+	font-size: 25px;
+	font-family:Courier New;
+	font-weight: bolder;
+}
+
+#header a {
+	color: #fff;
+	background: #436fac;
+	padding: 4px 15px;
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: bolder;
+}
+
+#header a:hover {
+	background: #4d8add
+}
+
+
+.logout-button {
+  display: block;
+  float:right;
+  width:100px;
+  height: auto;
+  margin-right: 20px;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #494d59;
+  text-align: center;
+  text-shadow: 0 1px rgba(255, 255, 255, 0.5);
+  background: #fcfcfc;
+  border: 1px solid;
+  border-color: #d8d8d8 #d1d1d1 #c3c3c3;
+  border-radius: 2px;
+  cursor: pointer;
+  background-image: -webkit-linear-gradient(top, #fefefe, #eeeeee);
+  background-image: -moz-linear-gradient(top, #fefefe, #eeeeee);
+  background-image: -o-linear-gradient(top, #fefefe, #eeeeee);
+  background-image: linear-gradient(to bottom, #fefefe, #eeeeee);
+  -webkit-box-shadow: inset 0 -1px rgba(0, 0, 0, 0.03), 0 1px rgba(0, 0, 0, 0.04);
+  box-shadow: inset 0 -1px rgba(0, 0, 0, 0.03), 0 1px rgba(0, 0, 0, 0.04);
+}
+
+.color {
+    color: red;
+    font-weight: bold;
+}
+
+.error_section {
+    color: red;
+    font-style: italic;
+}
+
+.emph {
+    color: rgb(28, 11, 95);
+    font-style: oblique;
+    font-size: 60px;
+    border: 2px;
+    padding:4px;
+    position: absolute;
+    margin-top: 450px;
+}
+
+.hidden{
+    display: none;
+}
+
+input#input_act {
+    width:70px;
+}
+
+.chatBox {
+    border: 1px solid black;
+    width: 300px;
+    margin: 5px;
+    background-color: #99FF66;
+}
+
+.chatBox .main {
+    background-color: #fff;
+    height: 300px;
+    padding: 5px;
+    overflow: auto;
+}
+
+.chatBox .messageBox {
+    padding: 7px 5px 5px 5px;
+}
+
+#newMessageContent {
+    font: 14px arial, sans-serif;
+    width: 200px;
+    height: 32px;
+    resize: none;
+}
+
+#newMessageSend {
+    height: 36px;
+    width: 80px;
+}
+
+.check_enter {
+    height: 36px;
+    float: left;
+}
+
+
+.chatBox .messageBox .left {
+    float: left;
+    width: 210px;
+}
+
+
+#messageBoxSignIn {
+    padding: 8px;
+    width: 100%;
+}
+
+
+strong {
+ font-weight:bold;
+}
+
+// css for intake table
+
+table { 
+    border-collapse: collapse;
+    font-family: Futura, Arial, sans-serif;
+    border: 1px solid #777; 
+}
+
+caption { 
+    font-size: larger; 
+    margin: 1em auto; 
+}
+
+th, td { 
+    padding: .65em; 
+}
+
+th, thead {
+    background: #B300B2 ; 
+    color: #fff; 
+    border: 1px solid #000; 
+}
+
+tr:nth-child(odd) {
+    background: #ccc; 
+}
+
+tr:nth-child(even) {
+    background: #fff
+}
+
+tr:hover {
+    background: #aaa; 
+}
+
+td { 
+    border-right: 1px solid #777; 
+}
+
+.add_food_button {
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+}
+
+.tandc {
+    width: 227px;
+    height: 103px;
+    text-align: center;
+    font-family: cursive;
+    background: #F8E0EC;
+    border: 2px solid green;
+    resize: none;
+}
