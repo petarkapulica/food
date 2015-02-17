@@ -97,8 +97,5 @@ class UserActivitiesModel extends Model {
         $stmt->execute();
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
         
-        //nalepili smo tacno odredjene kolone iz 3 baze da bismo prikupili
-        //samo one potrebne podatke za izracunavanje potrosenih kalorija
-        //opet mysql funkcija LEFT OUTER JOIN!
     }
 }

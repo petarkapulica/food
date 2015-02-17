@@ -6,7 +6,6 @@ class Welcome extends Session {
         parent::__construct();
     }
     
-    // index je default akcija,ako u urlu posle naziva kontrolera ne postoji nista!pogledati Bootstrap!(line7)
     function indexAction()
     {
         

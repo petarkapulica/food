@@ -10,7 +10,7 @@ class Session {
         else
         {
            session_destroy();
-           header("location:http://localhost/primer/index");
+           header("location:http://localhost/primer");
         }
         
         $this->_view = new View();

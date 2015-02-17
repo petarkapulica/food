@@ -7,7 +7,6 @@ class Chat extends Session {
         parent::__construct();
     }
     
-    // index je default akcija,ako u urlu posle naziva kontrolera ne postoji nista!pogledati Bootstrap!(line7)
     function insertAction()
     {
         if ($_SERVER['REQUEST_METHOD'] === 'GET') 

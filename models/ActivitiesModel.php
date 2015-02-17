@@ -14,11 +14,6 @@ class ActivitiesModel extends Model {
                         AND  uact.user_id = ".$_SESSION["user"]["id"]."             
         ");
         $stmt->execute();
-        //ovde smo na databazu activities nalepili kolonu hours_spent iz
-        // databaze user_activities
-        //to nam omogucava mysql funckija LEFT OUTER JOIN
-        //ovaj model nam treba da bismo na frontu prikazali listu upisanih aktivnosti
-       
        return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
 }

@@ -5,7 +5,7 @@ class Logout {
     function __construct() 
     {
         session_destroy();
-        header("location:index");
+        header("location:/primer");
     }
     
     function indexAction()

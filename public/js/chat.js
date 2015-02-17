@@ -88,11 +88,7 @@ chat.prototype = {
     
     validateMessage : function()
     {
-        var swear = ['dick', 'pussy', 'shit', 'vagina', 'penis', 'ass',
-                    'fucker', 'anal', 'oral' , 'kurac', 'picka', 'govno', 'sisa',
-                    'fuck', 'crap', 'jebanje', 'jebati' , 'jeba', 'jebacina', 
-                    'kurcina', 'taslacenje', 'guzenje', 'jebacu', 'picke', 'boobs',
-                    'kita', 'cmar', 'kurcu', 'kurcev' , 'pickica', 'picku'];
+        var swear = ['ass','shit'];
         
           var userMessage = $('#newMessageContent');
           var userMessageArray = userMessage.val().toLowerCase().split(' ');

@@ -67,7 +67,6 @@ class Bootstrap {
     }
     
     
-    //zasto mi je ovo uvek zajebano da shvatim?zasto sam glup ko kurac?
     private function _doAction()
     {            
         $controller = new $this->_controller(); 
@@ -75,7 +74,6 @@ class Bootstrap {
         
         if(method_exists($controller, $action))
         {   
-            // pr $controller->nazivAkcije("$neki_parametri")
             $controller->{$action}($this->_params); 
         }
         else

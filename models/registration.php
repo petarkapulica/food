@@ -49,7 +49,7 @@ class RegistrationModel extends Model {
              );
          }
             
-      //ako je popunio sva polja proveravam da li vec postoji u bazi:
+      //da li vec postoji u bazi:
         $stmt = $this->db->prepare("SELECT username FROM users WHERE username = :name");
         $stmt->bindParam(':name', $data["newusername"]);
         $stmt->execute();
